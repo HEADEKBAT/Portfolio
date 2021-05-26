@@ -1,0 +1,44 @@
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100vw;
+    background: rgb(21, 4, 42);
+    background: linear-gradient(180deg, rgba(21, 4, 42, 1) 1%, rgba(40, 9, 53, 1) 33%, rgba(167, 43, 127, 1) 100%);
+
+    ul {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        @media (max-width: 530px) {
+            margin: 30px 00;
+            justify-content: center;
+        }
+        li {
+            width: 40px;
+            height: 40px;
+            margin: 0 20px;
+            @media (max-width: 530px) {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+    &__mail {
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.footer {
+    &__social {
+    }
+}
+.footer-contacts {
+    &__mail {
+    }
+}

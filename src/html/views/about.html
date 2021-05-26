@@ -1,0 +1,119 @@
+<%=_.template(require('../parts/head.html'))({
+    title: "title",
+    menu: {}
+}) %>
+
+<body>
+    <main class="main">
+        <%=_.template(require('../parts/header.html'))() %>
+
+        <div class="about">
+            <div class="about__content">
+                <div class="about__header">
+                    <div class="title title__about title--top">
+                        <h1 class="title__text title__text_abaut">About Me</h1>
+                        <div class="border js-letter"><span></span><span class="js-letter border__letter"></span></div>
+                        <p class="title__lead title__lead_about js-letter">I love Cool Design, Technology<br>and Story.</p>
+
+                    </div>
+                    <div class="about__background">
+                        <div class="about__background_left"></div>
+                        <div class="about__background_right"></div>
+                    </div>
+                </div>
+                <div class="about__wrapper">
+                    <div class="about__info-block info-block">
+                        <div class="info-block__rigt">
+                            <div data-aos="zoom-in-up" class="info-block__name-block">Обо мне</div>
+                        </div>
+                        <div class="info-block__Left">
+                            <div data-aos="zoom-in-up" class="info-block__title"> Качурин Дмитрий</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">
+                                <p>Родился в городе Петропавловск-Камчатский в 1994 году.
+                                    В 2011 перехал в город Санкт-Петербург поступив в
+                                    Горный университет. Во время учебы работал инженером и
+                                    в сфере общепита. К окончанию открыл свою кальянну
+                                    (проработала она в районе года).
+                                    После обрел богатый опыт в торговле. К концу 2019 года начал
+                                    знакомиться с программированием
+                                </p>
+                            </div>
+                            <div data-aos="zoom-in-up" class="info-block__image">
+                                <img src="./img/photo.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__info-block info-block">
+                        <div data-aos="zoom-in-up" class="info-block__rigt">
+                            <div class="info-block__name-block">Опыт</div>
+                        </div>
+                        <div class="info-block__Left">
+                            <div data-aos="zoom-in-up" class="info-block__title_l">Работа в сфере общественного питания (2013-2016)</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">Начинал работать во время учебы официантом, быстро вырос до бармена, а затем до старшего бармена. Продолжал работать
+                                примерно до получения
+                                диплома.
+                            </div>
+                            <div data-aos="zoom-in-up" class="info-block__title_l">Свой бизнес (2016-2017)</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">Открывал кальянную, проработала почти год, закрылась из-за смены арендодателя, решил не открывать что-то новое по
+                                причине больших издержек на
+                                старт.
+                            </div>
+                            <div data-aos="zoom-in-up" class="info-block__title_l">Работа в сфере продаж (2017-2020)</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">В основном работал с продуктами питания, руководил магазинами в торговых центрах.
+                            </div>
+                            <div data-aos="zoom-in-up" class="info-block__title_l">Разработка (2017-2020)</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">На данный момент не имею опыта коммерческой разработки. Занимаюсь изучением последние полтора года. Прошел несколько
+                                курсов по JS и REACT.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__info-block info-block">
+                        <div class="info-block__rigt">
+                            <div data-aos="zoom-in-up" class="info-block__name-block">Образование</div>
+                        </div>
+                        <div class="info-block__Left">
+                            <div data-aos="zoom-in-up" class="info-block__title_l">Высшее образование</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">Геологический факультет Санкт-Петербургского Горного университета. Поступал в 2011 году
+                            </div>
+                            <div data-aos="zoom-in-up" class="info-block__title_l">Обучение FRONTEND</div>
+                            <div data-aos="zoom-in-up" class="info-block__text">Прошел курс на юдеми по JS и REACT, обучение во-время создания пет проектов</div>
+                        </div>
+                    </div>
+
+                    <div class="about__info-block info-block">
+                        <div data-aos="zoom-in-up" class="info-block__rigt">
+                            <div class="info-block__name-block">Навыки</div>
+                        </div>
+                        <div data-aos="zoom-in-up" class="info-block__Left">
+                            <div class="info-block__text">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>scss</span>
+                                <span>JavaScript</span>
+                                <span>Gulp</span>
+                                <span>WebPack</span>
+                                <span>Git</span>
+                                <span>React</span>
+                                <span>Figma</span>
+                                <span>Zeplin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%=_.template(require('../parts/footer.html'))() %>
+        </div>
+
+
+    </main>
+
+
+
+
+
+    <script src="js/app.bundle.js"></script>
+</body>
+
+
+</html>

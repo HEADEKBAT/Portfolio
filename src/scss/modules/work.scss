@@ -1,0 +1,102 @@
+.work {
+    background: rgb(2, 11, 22);
+    background: linear-gradient(180deg, rgba(2, 11, 22, 1) 0%, rgba(21, 4, 42, 1) 100%);
+    &__content {
+        padding: 50px 0px;
+        margin: -1px 0px;
+    }
+
+    &__title {
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 2rem;
+    }
+
+    &__wrapper {
+    }
+
+    &__progects {
+    }
+
+    &__wrap {
+    }
+
+    &__flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 10px 0px 10px;
+        justify-content: center;
+    }
+}
+
+.project {
+    margin: 10px 10px;
+    flex: 0 0 48%;
+    height: 400px;
+    @media (max-width: 1020px) {
+        flex: 0 0 100%;
+    }
+    @media (max-width: 800px) {
+        height: 380px;
+    }
+    @media (max-width: 700px) {
+        height: 350px;
+    }
+    @media (max-width: 500px) {
+        height: 300px;
+    }
+    &__image {
+        width: 100%;
+        height: 100%;
+        &_aod {
+            background: url("./img/img-bg/aod.jpg") center no-repeat;
+            background-size: cover;
+        }
+        &_denis {
+            background: url("./img/img-bg/D-Novic.JPG") 0 top no-repeat;
+            background-size: cover;
+        }
+        &_lux {
+            background: url("./img/img-bg/treader.JPG") 0 top no-repeat;
+            background-size: cover;
+        }
+        &_hunger {
+            background: url("./img/img-bg/hungry.JPG") 0 center no-repeat;
+            background-size: cover;
+        }
+        &_portfolio {
+            background: url("./img/img-bg/portfolio.JPG") 0 center no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+.popup {
+    color: #000;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        margin: 0px 0px 20px 0px;
+    }
+
+    &__text {
+    }
+    &__link {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px 0px 0px;
+        @media (max-width: 450px) {
+            flex-direction: column;
+        }
+    }
+    &__button {
+        color: #fff;
+        background: #ff4d5a;
+        padding: 20px 20px;
+        border-radius: 5px;
+        @media (max-width: 450px) {
+            margin: 0px 0px 10px 0px;
+        }
+    }
+}

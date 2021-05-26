@@ -1,0 +1,38 @@
+/* ==========================================================================
+    LIBS
+    ========================================================================== */
+@import "~aos/dist/aos.css";
+
+/* ==========================================================================
+    SPECIFICATION
+    ========================================================================== */
+@import "spec/fonts";
+@import "spec/variables";
+@import "spec/mixins";
+@import "spec/global";
+@import "spec/visually-hidden";
+
+/* ==========================================================================
+    COMMON ELEMENTS
+    ========================================================================== */
+@import "common/btn";
+@import "common/header";
+@import "common/nav";
+@import "common/hamburger";
+@import "common/footer";
+@import "common/popup";
+/* ==========================================================================
+    MODULES
+    ========================================================================== */
+@import "modules/main-offer";
+@import "../../node_modules/fullpage.js/dist/fullpage.css";
+
+@import "../scss/modules/section1";
+@import "../scss/modules/background";
+@import "../scss/modules/about";
+@import "../scss/modules/work.scss";
+
+.layer {
+    width: 100%;
+    height: 100%;
+}

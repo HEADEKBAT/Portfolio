@@ -1,0 +1,59 @@
+<%=_.template(require('../parts/head.html'))({
+    title: "title",
+    menu: {}
+}) %>
+
+<body>
+
+    <div class="wrapper-popup">
+        <header id="header" class="header-popup lock-padding">
+            <div class="header-popup__container _container">
+                <a href="" class="header-popup__logo"></a>
+                <a href="#popup" class="header-popup_phone popup-link">попап-1</a>
+            </div>
+        </header>
+        <div class="content-popup">
+            <div class='content-popup__container _container'>
+                <section class="content-popup__section content__section_row">
+                    <div class="content-popup__body">
+                        <div class="content-popup__title">только вперед</div>
+                        <div class="content-popup__text">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <a href="#image" class="content-popup__image popup-link">
+                        <img src="../../img/about.jpg" alt="">
+                    </a>
+                </section>
+                <section class="content-popup__section">
+                    <h2 class="content-popup__subtitle">живи</h2>
+                    <div class="content-popup__text">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><a href="#popup2" class="popup-link"></a></p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">окно 1</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, facilis!</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/app.bundle.js"></script>
+</body>
+
+
+</html>

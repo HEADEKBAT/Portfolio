@@ -1,0 +1,121 @@
+<%=_.template(require('../parts/head.html'))({
+    title: "title",
+    menu: {}
+}) %>
+
+<body>
+    <%=_.template(require('../parts/header.html'))() %>
+    <div class="fullpage" id="fullpage">
+        <div class="section">
+            <div class="fullpage__slide">
+                <div class="title title--top">
+                    <h1 class="title__text">ДМИТРИЙ<br>КАЧУРИН</h1>
+                    <div class="border"><span></span><span class="border__letter"></span></div>
+                    <p class="title__lead">FRONTEND DEVELOPER /<br>markup engineer.</p>
+                </div>
+                <div class="moon">
+                    <div class="moon__img js-parallax-moon" id="scene">
+                        <div class="moon__front layer" data-depth="0.2">
+                            <div class="moon__text-wrap">
+                                <p class="moon__text js-moon" data-depth="0.5">PORTFOLIO</p>
+                            </div>
+                        </div>
+                        <div class="moon__front layer" data-depth="0.8">
+                            <div class="cloud cloud--front1 js-moon"><img src="./img/cloud1.svg" alt="cloud"></div>
+                        </div>
+                        <div class="moon__back layer" data-depth="0.4">
+                            <div class="cloud cloud--back2 js-moon"><img src="./img/b_cloud02.svg" alt="cloud"></div>
+                        </div>
+                        <div class="moon__front layer" data-depth="0.6">
+                            <div class="cloud cloud--front2 js-moon"><img src="./img/cloud2.svg" alt="cloud"></div>
+                        </div>
+
+                        <div class="moon__back layer" data-depth="0.5">
+                            <img class="moon__moon js-moon" src="./img/moon.svg" alt="moon">
+                        </div>
+                        <div class="moon__front layer" data-depth="0.7">
+                            <div class="cloud cloud--front3 js-moon"><img src="./img/cloud3.svg" alt="cloud"></div>
+                        </div>
+                        <div class="moon__back layer" data-depth="0.3">
+                            <div class="cloud cloud--back1 js-moon"><img src="./img/b_cloud01.svg" alt="cloud"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="fullpage__slide">
+                <div class="title title__about title--top">
+                    <h1 class="title__text title__text_abaut">About Me</h1>
+                    <div class="border"><span></span><span class=" border__letter"></span></div>
+                    <p class="title__lead title__lead_about">I love Cool Design, Technology<br>and Story.</p>
+                    <button class="title__button">
+                        <a href="./about.html">Show my more</a>
+                    </button>
+                </div>
+                <a href="" class="section-main-image">
+                    <div class="section-main-image__wrapper">
+
+                        <div class="section-main-image__text">frontend</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="fullpage__slide">
+                <div class="title title__about title--top">
+                    <h1 class="title__text title__text_abaut js-letter">Works</h1>
+                    <div class="border js-letter"><span></span><span class="js-letter border__letter"></span></div>
+                    <p class="title__lead title__lead_about js-letter">Here I will tell you <br> about my progekts.</p>
+                    <button class="title__button">
+                        <a href="./works.html">Show my more</a>
+                    </button>
+                </div>
+                <a href="" class="section-main-image">
+                    <div class="section-main-image__wrapper section-main-image__wrapper_work">
+                    </div>
+                    <div class="section-main-image__wrapper-shadow"></div>
+                </a>
+            </div>
+        </div>
+
+        <div data-anchor="contacts" class="section">
+            <div class="fullpage__slide">
+                <div class="title title__about title--top">
+                    <h1 class="title__text title__text_abaut js-letter">Contact</h1>
+                    <div class="border js-letter"><span></span><span class="js-letter border__letter"></span></div>
+                    <div class="title-contacts">
+                        <a class="title-contacts__mail" href="mailto:kdv41rus@yandex.ru">kdv41rus@yandex.ru</a>
+                        <ul>
+                            <li><a href="https://vk.com/headekbat41rus" class="header__social"><img src="./img/vk.svg" alt=""></a></li>
+                            <li><a href="https://t.me/KachurinDmitriy" class="header__social"><img src="./img/telegram.svg" alt=""></a></li>
+                            <li><a href="https://github.com/HEADEKBAT" class="header__social"><img src="./img/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-main-image">
+                    <div class="section-main-image__wrapper section-main-image__wrapper_contacts">
+                    </div>
+                    <div class="section-main-image__wrapper-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="moon-background">
+        <div class="moonlight">
+            <div class="moonlight__wrap js-parallax-moonlight" id="scene3">
+                <div class="layer moonlight__img" data-depth="0.2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="star js-parallax-star" id="scene2">
+        <div class="layer" data-depth="0.1">
+            <div class="star__img"><img src="./img/star.svg"></div>
+        </div>
+    </div>
+    <div class="sky-color"></div>
+    <script src="js/app.bundle.js"></script>
+</body>
+
+
+</html>
